@@ -67,3 +67,38 @@ This repository serves as a practical portfolio demonstrating SOC Analyst and De
 | D004 | Failed Logon Detection | 4625 | T1110 | Medium | ⏳ Planned |
 | D005 | Successful Logon Detection | 4624 | T1078 | Low | ⏳ Planned |
 | D006 | Account Lockout | 4740 | T1110 | High | ⏳ Planned |
+
+## 🚀 Project Roadmap
+
+### Phase 1: Lab Setup ✅
+- [x] Install Splunk Enterprise
+- [x] Configure Splunk Universal Forwarder
+- [x] Configure Windows Event Log collection
+- [x] Build Windows 10 & Kali Linux lab
+- [x] Verify log ingestion into Splunk
+
+### Phase 2: Detection Engineering 🚧
+- [x] PowerShell Execution Detection
+- [ ] Encoded PowerShell Detection
+- [ ] CMD Execution Detection
+- [ ] Failed Logon Detection
+- [ ] Successful Logon Detection
+- [ ] Account Lockout Detection
+- [ ] Scheduled Task Detection
+- [ ] Registry Persistence Detection
+- [ ] WMI Execution Detection
+- [ ] PsExec Detection
+- [ ] Certutil Detection
+
+### Phase 3: Detection Tuning
+- [ ] Reduce false positives
+- [ ] Improve SPL performance
+- [ ] Alert suppression
+- [ ] Detection tuning
+
+### Phase 4: Portfolio Completion
+- [ ] Complete documentation
+- [ ] Add screenshots
+- [ ] MITRE ATT&CK mapping
+- [ ] Investigation playbooks
+- [ ] Publish final portfolio
