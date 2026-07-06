@@ -44,3 +44,15 @@ This repository serves as a practical portfolio demonstrating SOC Analyst and De
                     | SIEM             |
                     +------------------+
 ```
+## 🛠️ Tools & Technologies
+
+| Category | Technology |
+|----------|------------|
+| SIEM | Splunk Enterprise 10.4.1 |
+| Log Collection | Splunk Universal Forwarder |
+| Operating Systems | Windows 11 Pro, Windows 10, Kali Linux |
+| Virtualization | VMware Workstation |
+| Log Source | Windows Security Logs |
+| Query Language | SPL (Search Processing Language) |
+| Framework | MITRE ATT&CK |
+| Version Control | Git & GitHub |
