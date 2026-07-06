@@ -56,3 +56,14 @@ This repository serves as a practical portfolio demonstrating SOC Analyst and De
 | Query Language | SPL (Search Processing Language) |
 | Framework | MITRE ATT&CK |
 | Version Control | Git & GitHub |
+
+## 📋 Detection Matrix
+
+| ID | Detection | Event ID | MITRE ATT&CK | Severity | Status |
+|----|-----------|----------|--------------|----------|--------|
+| D001 | PowerShell Execution | 4688 | T1059.001 | Medium | ✅ Completed |
+| D002 | Encoded PowerShell | 4688 | T1059.001 | High | ⏳ Planned |
+| D003 | CMD Execution | 4688 | T1059.003 | Medium | ⏳ Planned |
+| D004 | Failed Logon Detection | 4625 | T1110 | Medium | ⏳ Planned |
+| D005 | Successful Logon Detection | 4624 | T1078 | Low | ⏳ Planned |
+| D006 | Account Lockout | 4740 | T1110 | High | ⏳ Planned |
