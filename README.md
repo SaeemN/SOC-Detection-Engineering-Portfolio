@@ -19,3 +19,28 @@ This repository serves as a practical portfolio demonstrating SOC Analyst and De
 | Attack Machine | Kali Linux VM |
 | Virtualization | VMware Workstation |
 | Log Source | Windows Security Event Logs |
+
+## 🏗️ Lab Architecture
+
+```text
+                    +------------------+
+                    | Kali Linux VM    |
+                    | (Attack Machine) |
+                    +--------+---------+
+                             |
+                             |
+                    +--------v---------+
+                    | Windows 10 VM    |
+                    | (Victim Machine) |
+                    | Splunk Universal |
+                    | Forwarder         |
+                    +--------+---------+
+                             |
+                             | TCP 9997
+                             |
+                    +--------v---------+
+                    | Windows 11 Host  |
+                    | Splunk Enterprise|
+                    | SIEM             |
+                    +------------------+
+```
